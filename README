@@ -7,3 +7,11 @@
   
 - elements.html has example code for different things like buttons, paragraph fonts, etc.
   - goto https://csci499.github.io/elements.html to see examples
+
+- too add a past project follow these steps
+  1) Go to gdrive and click File > Publish to the Web, select embed and copy iframe link
+  2) Upload file to papers directory OR have link to paper handy
+    - NOTE: if uploading to papers directory link will be https://csci499.github.io/papers/NAME_OF_PAPER.pdf (paper title cannot have space characters)
+  3) In past_projects add the following 2 lines:
+    {insert iframe link here}
+    <div><a href="{insert link to paper here}" class="button">LINK TO PAPER</a></div><br>
